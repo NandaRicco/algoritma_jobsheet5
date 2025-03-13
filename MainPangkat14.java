@@ -22,10 +22,12 @@ public class MainPangkat14 {
         // for (Pangkat14 p : png) {
         //     System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatBF(p.nilai, p.pangkat));
         // }
+        
         System.out.println("Hasil Pangkat Bruteforce");
         for (Pangkat14 p : png) {
             System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatBF());
         }
+        
         System.out.println("Hasil Pangkat Devide and Conquer");
         for (Pangkat14 p : png) {
             System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatDC(p.nilai, p.pangkat));

@@ -15,7 +15,7 @@ public class MainSum14 {
             sm.keuntungan[i] = input.nextInt();
         }
 
-        System.out.println("Total keuntungan menggunakan Bruteforce: " + sm.totalBF());
+        System.out.println("Total keuntungan menggunakan Bruteforce        : " + sm.totalBF());
         System.out.println("Total keuntungan menggunakan Divide and COnquer: " + sm.totalDC(sm.keuntungan, 0, element-1));
     }
     
